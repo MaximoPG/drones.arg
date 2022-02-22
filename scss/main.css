@@ -1,0 +1,86 @@
+header {
+  padding: 50px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: grey;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+aside {
+  -webkit-box-flex: 30px;
+      -ms-flex: 30px;
+          flex: 30px;
+  background-color: #c6bcb6;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  background-color: #c6bcb6;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  background-color: #c6bcb6;
+}
+
+h3 {
+  text-align: center;
+}
+
+#fondoGral {
+  background-color: #c6bcb6;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 65vh;
+}
+/*# sourceMappingURL=main.css.map */
